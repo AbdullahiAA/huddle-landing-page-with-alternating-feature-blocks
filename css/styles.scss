@@ -201,6 +201,11 @@ footer {
             align-items: center;
             gap: 25px;
             margin-bottom: 25px;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
         }
 
         .footer__contacts p:first-child {

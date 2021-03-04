@@ -229,6 +229,11 @@ footer .footer__details .footer__contacts p {
   margin-bottom: 25px;
 }
 
+footer .footer__details .footer__contacts p a {
+  text-decoration: none;
+  color: white;
+}
+
 footer .footer__details .footer__contacts p:first-child {
   -webkit-box-align: start;
       -ms-flex-align: start;
