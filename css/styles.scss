@@ -270,3 +270,47 @@ footer {
         }
     }
 }
+
+
+@media screen and (min-width: 760px) {
+    body {
+        background-image: url(../images/bg-hero-desktop.svg);
+    }
+
+    header {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .container {
+            img {
+                width: 180px;
+            }
+
+            a {
+                padding: 15px 50px;
+            }
+        }
+    }
+
+    .hero .container {
+        display: flex;
+        gap: 50px;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+
+        .hero__left {
+            flex: 5;
+        }
+
+        .hero__right {
+            flex: 7;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
